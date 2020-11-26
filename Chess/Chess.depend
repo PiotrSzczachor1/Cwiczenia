@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1606412424 source:c:\users\user\desktop\cwiczeniaagh\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606396712 c:\users\user\desktop\cwiczeniaagh\chess\board.h
+
+1606431479 c:\users\user\desktop\cwiczeniaagh\chess\move.h
+
