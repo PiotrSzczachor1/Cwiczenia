@@ -9,3 +9,19 @@
 
 1606431479 c:\users\user\desktop\cwiczeniaagh\chess\move.h
 
+1606431780 source:c:\users\piotr\desktop\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606431780 c:\users\piotr\desktop\chess\board.h
+
+1606434301 c:\users\piotr\desktop\chess\move.h
+	"convert_letter_to_number.h"
+	"convert_number_to_letter.h"
+
+1606432805 c:\users\piotr\desktop\chess\convert_letter_to_number.h
+
+1606433140 c:\users\piotr\desktop\chess\convert_number_to_letter.h
+
