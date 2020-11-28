@@ -25,3 +25,25 @@
 
 1606433140 c:\users\piotr\desktop\chess\convert_number_to_letter.h
 
+1606522431 source:c:\users\piotr\desktop\programowanie\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606504587 c:\users\piotr\desktop\programowanie\chess\board.h
+
+1606522128 c:\users\piotr\desktop\programowanie\chess\move.h
+	"convert_letter_to_number.h"
+	"convert_number_to_letter.h"
+	"rook_possible_moves.h"
+	"knight_possible_moves.h"
+
+1606432805 c:\users\piotr\desktop\programowanie\chess\convert_letter_to_number.h
+
+1606433140 c:\users\piotr\desktop\programowanie\chess\convert_number_to_letter.h
+
+1606519929 c:\users\piotr\desktop\programowanie\chess\rook_possible_moves.h
+
+1606522350 c:\users\piotr\desktop\programowanie\chess\knight_possible_moves.h
+

@@ -38,6 +38,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="move.h" />
+		<Unit filename="rook_possible_moves.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
