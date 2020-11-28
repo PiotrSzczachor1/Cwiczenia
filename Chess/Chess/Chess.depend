@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1606412424 source:c:\users\user\desktop\cwiczeniaagh\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606396712 c:\users\user\desktop\cwiczeniaagh\chess\board.h
+
+1606431479 c:\users\user\desktop\cwiczeniaagh\chess\move.h
+
+1606431780 source:c:\users\piotr\desktop\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606431780 c:\users\piotr\desktop\chess\board.h
+
+1606434301 c:\users\piotr\desktop\chess\move.h
+	"convert_letter_to_number.h"
+	"convert_number_to_letter.h"
+
+1606432805 c:\users\piotr\desktop\chess\convert_letter_to_number.h
+
+1606433140 c:\users\piotr\desktop\chess\convert_number_to_letter.h
+
+1606607252 source:c:\users\piotr\desktop\programowanie\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606530870 c:\users\piotr\desktop\programowanie\chess\board.h
+
+1606606936 c:\users\piotr\desktop\programowanie\chess\move.h
+	"convert_letter_to_number.h"
+	"convert_number_to_letter.h"
+	"rook_possible_moves.h"
+	"knight_possible_moves.h"
+	"pawn_possible_moves.h"
+	"king_possible_moves.h"
+
+1606530870 c:\users\piotr\desktop\programowanie\chess\convert_letter_to_number.h
+
+1606530870 c:\users\piotr\desktop\programowanie\chess\convert_number_to_letter.h
+
+1606530870 c:\users\piotr\desktop\programowanie\chess\rook_possible_moves.h
+
+1606606410 c:\users\piotr\desktop\programowanie\chess\knight_possible_moves.h
+
+1606530306 source:c:\users\user\desktop\chess\main.c
+	<stdio.h>
+	<stdlib.h>
+	"board.h"
+	"move.h"
+
+1606523894 c:\users\user\desktop\chess\board.h
+
+1606530382 c:\users\user\desktop\chess\move.h
+	"convert_letter_to_number.h"
+	"convert_number_to_letter.h"
+	"rook_possible_moves.h"
+	"knight_possible_moves.h"
+
+1606523894 c:\users\user\desktop\chess\convert_letter_to_number.h
+
+1606523894 c:\users\user\desktop\chess\convert_number_to_letter.h
+
+1606523894 c:\users\user\desktop\chess\rook_possible_moves.h
+
+1606530215 c:\users\user\desktop\chess\knight_possible_moves.h
+
+1606606410 c:\users\piotr\desktop\programowanie\chess\pawn_possible_moves.h
+
+1606607323 c:\users\piotr\desktop\programowanie\chess\king_possible_moves.h
+
