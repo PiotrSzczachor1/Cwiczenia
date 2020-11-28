@@ -34,6 +34,7 @@
 		<Unit filename="board.h" />
 		<Unit filename="convert_letter_to_number.h" />
 		<Unit filename="convert_number_to_letter.h" />
+		<Unit filename="knight_possible_moves.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
