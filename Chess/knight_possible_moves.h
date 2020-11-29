@@ -3,7 +3,6 @@ void knight_possible_moves(int hidden_board[8][8], char board[8][8], int b, int 
     if(board[b-1][c]=='S') //Ruchy skoczka (konia)
         {
             char kolumna; //c - kolumna, b - wiersz
-            int d=c, e=b;
             printf("Mozliwe ruchy: \n");
             printf("W prawo, gora: ");
             kolumna=convert_number_to_letter(c);

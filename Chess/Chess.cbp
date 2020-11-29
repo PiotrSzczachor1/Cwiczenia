@@ -31,14 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="bishop_possible_moves.h" />
 		<Unit filename="board.h" />
 		<Unit filename="convert_letter_to_number.h" />
 		<Unit filename="convert_number_to_letter.h" />
+		<Unit filename="king_possible_moves.h" />
 		<Unit filename="knight_possible_moves.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="move.h" />
+		<Unit filename="pawn_possible_moves.h" />
 		<Unit filename="rook_possible_moves.h" />
 		<Extensions>
 			<code_completion />
