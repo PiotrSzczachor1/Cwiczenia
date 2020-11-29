@@ -5,6 +5,7 @@
 #include "pawn_possible_moves.h"
 #include "king_possible_moves.h"
 #include "bishop_possible_moves.h"
+#include "queen_possible_moves.h"
 
 void move(int *licznik, char board[8][8], int hidden_board[8][8])
 {
@@ -21,6 +22,7 @@ void move(int *licznik, char board[8][8], int hidden_board[8][8])
         pawn_possible_moves(hidden_board, board, b, c, 2, 1);
         king_possible_moves(hidden_board, board, b, c, 2, 1);
         bishop_possible_moves(hidden_board, board, b, c, 2, 1);
+        queen_possible_moves(hidden_board, board, b, c, 2, 1);
     }
     else
     {
@@ -33,6 +35,7 @@ void move(int *licznik, char board[8][8], int hidden_board[8][8])
         pawn_possible_moves(hidden_board, board, b, c, 1, 2);
         king_possible_moves(hidden_board, board, b, c, 1, 2);
         bishop_possible_moves(hidden_board, board, b, c, 1, 2);
+        queen_possible_moves(hidden_board, board, b, c, 1, 2);
     }
     *licznik=*licznik+1;
 }

@@ -42,6 +42,7 @@
 		</Unit>
 		<Unit filename="move.h" />
 		<Unit filename="pawn_possible_moves.h" />
+		<Unit filename="queen_possible_moves.h" />
 		<Unit filename="rook_possible_moves.h" />
 		<Extensions>
 			<code_completion />

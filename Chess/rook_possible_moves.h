@@ -62,5 +62,6 @@ void rook_possible_moves(int hidden_board[8][8], char board[8][8], int b, int c,
                 b++;
             }
             printf("\n");
+            b=e;
         }
 }
