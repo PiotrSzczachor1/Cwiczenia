@@ -13,7 +13,7 @@ int main()
 
                       {' ',' ',' ',' ',' ',' ',' ',' '},
 
-                      {' ',' ',' ','Q',' ',' ',' ',' '},
+                      {' ',' ',' ',' ',' ',' ',' ',' '},
 
                       {' ',' ',' ',' ',' ',' ',' ',' '},
 
@@ -32,9 +32,13 @@ int main()
                             {2,2,2,2,2,2,2,2},
                             {2,2,2,2,2,2,2,2}};
 
-    drawing_board(board);
-    move(licznik, board, hidden_board);
-    move(licznik, board, hidden_board);
+    while(1)
+    {
+        drawing_board(board);
+        move(licznik, board, hidden_board);
+        drawing_board(board);
+        move(licznik, board, hidden_board);
+    }
 
     return 0;
 }

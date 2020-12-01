@@ -51,10 +51,10 @@ void pawn_possible_moves(int hidden_board[8][8], char board[8][8], int b, int c,
                 //Ruch z pozycji startowej
                 if((b-1)==1 && hidden_board[b][c]!=color && hidden_board[b][c]!=enemy_color)
                 {
-                    printf("%c%d ", kolumna, b);
+                    printf("%c%d ", kolumna, b+1);
                     if(hidden_board[b+1][c]!=color&&hidden_board[b+1][c]!=enemy_color)
                     {
-                        printf("%c%d ", kolumna, b+1);
+                        printf("%c%d ", kolumna, b+2);
                     }
                     printf("\n");
                 }

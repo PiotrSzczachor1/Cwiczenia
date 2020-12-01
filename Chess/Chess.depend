@@ -51,27 +51,32 @@
 
 1606606410 c:\users\piotr\desktop\programowanie\chess\knight_possible_moves.h
 
-1606530306 source:c:\users\user\desktop\chess\main.c
+1606843159 source:c:\users\user\desktop\chess\main.c
 	<stdio.h>
 	<stdlib.h>
 	"board.h"
 	"move.h"
 
-1606523894 c:\users\user\desktop\chess\board.h
+1606614945 c:\users\user\desktop\chess\board.h
 
-1606530382 c:\users\user\desktop\chess\move.h
+1606843149 c:\users\user\desktop\chess\move.h
 	"convert_letter_to_number.h"
 	"convert_number_to_letter.h"
 	"rook_possible_moves.h"
 	"knight_possible_moves.h"
+	"pawn_possible_moves.h"
+	"king_possible_moves.h"
+	"bishop_possible_moves.h"
+	"queen_possible_moves.h"
 
-1606523894 c:\users\user\desktop\chess\convert_letter_to_number.h
+1606614945 c:\users\user\desktop\chess\convert_letter_to_number.h
 
-1606523894 c:\users\user\desktop\chess\convert_number_to_letter.h
+1606614945 c:\users\user\desktop\chess\convert_number_to_letter.h
 
-1606523894 c:\users\user\desktop\chess\rook_possible_moves.h
+1606844698 c:\users\user\desktop\chess\rook_possible_moves.h
+	"move.h"
 
-1606530215 c:\users\user\desktop\chess\knight_possible_moves.h
+1606614945 c:\users\user\desktop\chess\knight_possible_moves.h
 
 1606606410 c:\users\piotr\desktop\programowanie\chess\pawn_possible_moves.h
 
@@ -80,4 +85,12 @@
 1606614236 c:\users\piotr\desktop\programowanie\chess\bishop_possible_moves.h
 
 1606614784 c:\users\piotr\desktop\programowanie\chess\queen_possible_moves.h
+
+1606843612 c:\users\user\desktop\chess\pawn_possible_moves.h
+
+1606614945 c:\users\user\desktop\chess\king_possible_moves.h
+
+1606614945 c:\users\user\desktop\chess\bishop_possible_moves.h
+
+1606614945 c:\users\user\desktop\chess\queen_possible_moves.h
 

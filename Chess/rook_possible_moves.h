@@ -3,7 +3,7 @@ void rook_possible_moves(int hidden_board[8][8], char board[8][8], int b, int c,
     if(board[b-1][c]=='W') //Ruchy wiezy
         {
             char kolumna;
-            int d=c, e=b;
+            int d=c, e=b, zmiana_figury;
             printf("Mozliwe ruchy: \n");
             printf("W prawo: ");
             while(hidden_board[b-1][c+1]!=color&&( (c+1)<=7) )  //Dopoki wieza idac w prawo nie wyjdzie poza plansze lub nie napotka figury swojego koloru wypisuj mozliwosci ruchu wiezy w prawo
@@ -63,5 +63,6 @@ void rook_possible_moves(int hidden_board[8][8], char board[8][8], int b, int c,
             }
             printf("\n");
             b=e;
+
         }
 }
