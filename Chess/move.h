@@ -33,7 +33,7 @@ void move(int *licznik, char board[8][8], int hidden_board[8][8])
         board[move_row-1][move_column_int]=board[b-1][c]; //Zmiana pozycji figury na widocznej planszy
         hidden_board[move_row-1][move_column_int]=hidden_board[b-1][c]; //Zmiana pozycji figury na ukrytej planszy
         board[b-1][c]=' '; //Usuwanie starej pozycji figury
-        hidden_board=0; //Usuwanie starej pozyzji figury
+        hidden_board[b-1][c]=0; //Usuwanie starej pozyzji figury
 
     }
     else
@@ -58,7 +58,7 @@ void move(int *licznik, char board[8][8], int hidden_board[8][8])
         board[move_row-1][move_column_int]=board[b-1][c]; //Zmiana pozycji figury na widocznej planszy
         hidden_board[move_row-1][move_column_int]=hidden_board[b-1][c]; //Zmiana pozycji figury na ukrytej planszy
         board[b-1][c]=' '; //Usuwanie starej pozycji figury
-        hidden_board=0; //Usuwanie starej pozyzji figury
+        hidden_board[b-1][c]=0; //Usuwanie starej pozyzji figury
     }
     *licznik=*licznik+1;
 }
